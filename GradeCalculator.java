@@ -12,7 +12,7 @@ public class GradeCalculator {
         for (int i = 1; i <= numSubjects; i++) {
             System.out.print("Enter marks obtained in Subject " + i + ": ");
             int marks = scanner.nextInt();
-            totalMarks += marks;x
+            totalMarks += marks;
         }
 
         double averagePercentage = (double) totalMarks / numSubjects;
